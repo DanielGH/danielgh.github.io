@@ -20,7 +20,7 @@ box-sizing: border-box;
     background: #fff;
 }
 .pad-b {
-    padding: 1em;
+    padding: 0 2em;
 }
 .pure-img-responsive {
     max-width: 100%;
@@ -28,7 +28,7 @@ box-sizing: border-box;
 }
 
 #content {
-    padding: 0 2em;
+    padding: 0 0 0 2em;
 }
 
 #layout {
@@ -38,31 +38,37 @@ box-sizing: border-box;
 
 .header {
      margin: 0;
-     color: #333;
+     color: #fff;
      text-align: center;
-     padding: 2.5em 2em 0;
-     border-bottom: 1px solid #eee;
+     padding: 1em 1em 2em 1em;
+     background: #2299cc;
  }
-    .header h1 {
+    .header h1, .header p.site-title {
         margin: 0.2em 0;
         font-size: 3em;
         font-weight: 300;
+        line-height: 1.2em;
     }
-     .header h2 {
+     .header span {
         font-weight: 300;
-        color: #ccc;
+        color: #fff;
         padding: 0;
         margin-top: 0;
     }
 
-#content h1, #content h3, #content h4, #content h5, #content h6 {
+#content h3, #content h4, #content h5, #content h6 {
     margin: 50px 0 20px 0;
     font-weight: 300;
     color: #888;
 }
+
 article {
-    border:1px dashed #dfdfdf;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+}
+
+article h1 {
+  color: #444;
+  margin-bottom: 1em;
 }
 .title {
     position: relative;
@@ -72,18 +78,7 @@ article {
     height: auto;
 
 }
-.title h2 {
-  position: absolute; 
-  text-align: left;
-  width: 80%;
-  height: 0%;
-  margin: auto;
-  top: 0;
-  left: 10px;
-  bottom: 4px;
-  right: 0;
-  z-index: 51;
-}
+
 .wh {
     color: #fff
 }
@@ -100,4 +95,16 @@ article {
 }
 .footer p {
   font-size: 10px;
+}
+.text-right {
+  text-align: right;
+  padding-right: 1em;
+}
+.featured {
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #dfdfdf;
+}
+.featured h1 {
+  font-size: 22px;
 }
