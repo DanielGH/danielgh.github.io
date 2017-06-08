@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="Ph_bSqEgPxuLGkXpZ7oIi82xXSiEtKZ29HfxVCETiHs" />
+    <title>Webmaster Tools and Tutorials, Modern Website Templates - WebmasterBits</title>
+
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="resp-ie.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="resp.css">
+<!--<![endif]-->
+
+  </head>
+
+  <body>
+
+    <header>
+    <div class="header">
+    <h1>Webmaster bits</h1>
+    <h2>Webmaster Tools and Tutorials, Modern Website Templates</h2>
+    </div>
+<!--
+      <nav>
+        <ul>
+          <li><a href="#">Website templates</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+-->
+    </header>
+
+    <main>
+<div id="content">
+<div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1 pure-u-xl-3-5 pad-a">
+
+<article class="pad-a">
+
+        <h2 class="lg">The Perfect .HTACCESS setup for passing Google Page Insight</h2>
+
+        <p>The contents of this .htaccess file have been carefully pieced together to provide answers for common enviromental setups. It will work well with the <a href=https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google Page Insight tool</a>. Here are the sections it addresses:</p>
+        <h4>CROSS-ORIGIN</h4>
+        <ul>
+        <li>Cross-origin requests (disabled by default)</li>
+        <li>Cross-origin images (enabled: sends the CORS header for images when browsers request it)</li>
+        <li>Cross-origin web fonts (allow for <strong><strong><em>eot|otf|tt|woff2</em></strong></strong> file types)</li>
+        <li>Cross-origin resource timing (disabled)</li>
+        </ul>
+        <h4>ERRORS</h4>
+        <ul>
+        <li>Error prevention (disable the pattern matching <strong>-MultiViews</strong>)</li>
+        </ul>
+        <h4>INTERNET EXPLORER</h4>
+        <ul>
+        <li>Document modes (force IE 8/9/10 to render pages in the highest mode available)</li>
+        <li>Iframes cookies (allow cookies to be set from iframes)</li>
+        </ul>
+        <h4>SECURITY</h4>
+        <ul>
+        <li>Clickjacking (example of “X-Frame-Options” response header with “DENY” value)</li>
+        <li>Content Security Policy (CSP) (whitelists trusted sources of content for data on your website)</li>
+        <li>File access (Block access to directories without a default document &amp; Block access to all hidden files and directories; ie. this .htaccess file)</li>
+        <li>HTTP Strict Transport Security (HSTS) (set SSL redirection on the client-side)</li>
+        <li>Reducing MIME type security risks (prevent MIME-sniffing)</li>
+        <li>Reflected Cross-Site Scripting (XSS) attacks (enable filter and prevent browsers from rendering)</li>
+        <li>Disabling Server-side technology information</li>
+        <li>Disabling Server software information</li>
+        <li>Compression</li>
+        <li>Content transformation (disabled)</li>
+        <li>ETags (removed ETags due to using “Expires Headers”)</li>
+        <li>Expires headers</li>
+        </ul>
+
+        <p>This .htaccess configuration works with static sites and any dynamic ones as well, like WordPress. Append the contents of this file to your working .htaccess file if you are running a dynamic website.</p>
+        <p>Now you can check your headers using the <a href="/web/20160111071815/https://securityheaders.io/" target="_blank">securityheaders.io</a> online checker tool.</p>
+
+      </article>      
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1 pure-u-xl-2-5 pad-b">
+      <aside>
+      <h2>Connect with us</h2>
+      <p>Enter your email to receive our weekly technology newsletter.<p>
+      <p>Are you a tech wizz? Contributions via guest posts, templates or snippets are highly appreciated.</p>
+
+          <h3><a href="https://github.com/webmasterbits">Github</a></h3>
+          <h3><a href="http://www.colourlovers.com/lover/webmasterbits">Colourlovers</a></h3>
+          <h3><a href="https://twitter.com/webmasterbits">Twitter</a></h3>
+
+      </aside>
+    </div>
+
+</div>
+</div>
+
+
+
+
+    </main>
+
+
+    <footer>
+      <div class="footer"><p>&copy; Copyright WebmasterBits.com, 2003-2017. All rights reserved. No part of this site, webmasterbits.com, may be reproduced in whole or in part in any manner without the permission of the copyright owner.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
