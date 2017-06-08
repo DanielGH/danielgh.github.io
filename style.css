@@ -96,3 +96,6 @@ article {
 .footer {
   padding: 0 2em;
 }
+.footer p {
+  font-size: 10px;
+}
