@@ -30,7 +30,7 @@ a:hover {
     background: #fff;
 }
 .pad-b {
-    padding: 0 2em;
+    padding: 0 1em;
 }
 .pure-img-responsive {
     max-width: 100%;
@@ -115,7 +115,7 @@ article h1 {
 .featured {
   margin-bottom: 60px;
   padding-bottom: 60px;
-  border-bottom: 2px solid #dfdfdf;
+  border-bottom: 8px solid #f9f9f9;
 }
 .featured h1 {
   font-size: 22px;
