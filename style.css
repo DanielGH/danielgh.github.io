@@ -66,6 +66,10 @@ a:hover {
         margin-top: 0;
     }
 
+.site-title a {
+  color: #fff;
+}
+
 #content h3, #content h4, #content h5, #content h6 {
     margin: 50px 0 20px 0;
     font-weight: 300;
