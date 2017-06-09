@@ -11,6 +11,17 @@ p {
 box-sizing: border-box;
 }
 
+a:link {
+  text-decoration: none;
+  color: #2299cc;
+}
+a:visited {
+  color: #2299cc;
+}
+a:hover {
+  color: #555;
+}
+
 .pimg {
     max-width: 100%;
     height: auto;
@@ -103,9 +114,12 @@ article h1 {
   padding-right: 1em;
 }
 .featured {
-  margin-bottom: 80px;
-  padding-bottom: 40px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
   border-bottom: 2px solid #dfdfdf;
+}
+.featured article {
+  padding: 0 1em 0 0;
 }
 .featured h1 {
   font-size: 22px;
