@@ -103,7 +103,7 @@ article h1 {
 }
 
 .footer {
-  padding: 0 2em;
+  padding: 0 1em;
 }
 .footer p {
   font-size: 10px;
@@ -122,6 +122,7 @@ article h1 {
 }
 .featured-img {
   padding-right: 1em;
+  padding-left: 1em;
 }
 .featured-img img {
   margin-top: 1em;
