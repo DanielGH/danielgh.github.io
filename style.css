@@ -66,6 +66,10 @@ a:hover {
         margin-top: 0;
     }
 
+.header img {
+  width: 120px;
+}
+
 .site-title a {
   color: #fff;
 }
