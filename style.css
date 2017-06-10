@@ -52,6 +52,7 @@ a:hover {
      text-align: left;
      padding: 1em 1em 2.3em 1em;
      background: #2299cc;
+     border-bottom: 1px solid #0088cc;
  }
     .header h1, .header p.site-title {
         margin-top: 22px;
