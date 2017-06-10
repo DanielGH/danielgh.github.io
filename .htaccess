@@ -1,3 +1,6 @@
+# Redirects
+Redirect 301 /sending-html-emails-the-right-way-with-open-source-templates/ /html-email-templates.html
+
  
 # Apache configuration file
 # httpd.apache.org/docs/2.2/mod/quickreference.html
