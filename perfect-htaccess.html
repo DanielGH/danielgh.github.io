@@ -34,7 +34,7 @@
       <article class="pad-b">
         <h1>The Perfect .HTACCESS setup for passing Google Page Insight</h1>
 
-        <p>The contents of this <a href="https://gist.github.com/wycks/3011895">.htaccess file</a> have been carefully pieced together to provide answers for common enviromental setups for all websites. It will work well with the <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google Page Insight tool</a>. Here are the sections it addresses:</p>
+        <p>The contents of this <a href="https://gist.github.com/wycks/3011895">.htaccess file</a> have been carefully pieced together to provide answers for common enviromental setups for all websites hosted on servers that support .htaccess configurations. It will work well with the <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google Page Insight tool</a>. Here are the sections it addresses:</p>
         <h4>CROSS-ORIGIN</h4>
         <ul>
         <li>Cross-origin requests (disabled by default)</li>
@@ -67,7 +67,17 @@
         <li>Expires headers</li>
         </ul>
 
-        <p><a href="https://gist.github.com/wycks/3011895">This .htaccess configuration</a> works with static sites and any dynamic ones as well, like WordPress. Append the contents of this file to your working .htaccess file if you are running a dynamic website.</p>
+        <p><a href="https://gist.github.com/wycks/3011895">This .htaccess configuration</a> works with static sites and any dynamic ones as well, like WordPress. Append the contents of this file to your working .htaccess file if you are running a website hosted on an Apache websever.</p>
+
+        <h2>Websites hosted on different HTTP web servers</h2>
+        <p>Not all hosting companies use Apache as their HTTP serving server. Other popular software for running web servers are available like:</p>
+        <ul>
+          <li><a href="https://blogs.msdn.microsoft.com/azureossds/2015/04/23/converting-apache-htaccess-rules-to-iis-web-config-using-iis-manager-for-azure-websites/">Internet Information Services (IIS) from Microsoft</a></li>
+          <li><a href="https://winginx.com/en/htaccess">Nginx (Very powerfull for serving static sites)</a></li>
+          <li><a href="https://redmine.lighttpd.net/projects/1/wiki/MigratingFromApache">Lighttpd (Security, speed, compliance, and flexibility)</a></li>
+        </ul>
+        <p>In case your website is hosted on one of the above HTTP servers and not .htaccess you need not worry, as there are options to convert the configuration of the .htaccess file for them too.</p>
+
         <p>Now you can check the headers of your website using the <a href="https://securityheaders.io/" target="_blank">securityheaders.io</a> online checker tool.</p>
 
       </article>      
