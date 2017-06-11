@@ -132,6 +132,9 @@ article h1 {
   padding-bottom: 1em;
   border-bottom: 1em solid #f9f9f9;
 }
+.featured article {
+  padding-top: 1em;
+}
 .featured h1 {
   font-size: 22px;
 }
