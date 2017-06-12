@@ -5,3 +5,4 @@ http://webmasterbits.com/html-email-templates.html
 http://webmasterbits.com/perfect-htaccess.html
 http://webmasterbits.com/secure-website-csp-firewall.html
 http://webmasterbits.com/secure-website-cdn.html
+http://webmasterbits.com/google-news-spammed.html
