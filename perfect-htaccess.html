@@ -36,35 +36,13 @@
 
         <p>The contents of this <a href="https://gist.github.com/wycks/3011895">.htaccess file</a> have been carefully pieced together to provide answers for common enviromental setups for all websites hosted on servers that support .htaccess configurations. It will work well with the <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google Page Insight tool</a>. Here are the sections it addresses:</p>
         <h4>CROSS-ORIGIN</h4>
-        <ul>
-        <li>Cross-origin requests (disabled by default)</li>
-        <li>Cross-origin images (enabled: sends the CORS header for images when browsers request it)</li>
-        <li>Cross-origin web fonts (allow for <strong><strong><em>eot|otf|tt|woff2</em></strong></strong> file types)</li>
-        <li>Cross-origin resource timing (disabled)</li>
-        </ul>
+
         <h4>ERRORS</h4>
-        <ul>
-        <li>Error prevention (disable the pattern matching <strong>-MultiViews</strong>)</li>
-        </ul>
+
         <h4>INTERNET EXPLORER</h4>
-        <ul>
-        <li>Document modes (force IE 8/9/10 to render pages in the highest mode available)</li>
-        <li>Iframes cookies (allow cookies to be set from iframes)</li>
-        </ul>
+
         <h4>SECURITY</h4>
-        <ul>
-        <li>Clickjacking (example of “X-Frame-Options” response header with “DENY” value)</li>
-        <li>Content Security Policy (CSP) (whitelists trusted sources of content for data on your website)</li>
-        <li>File access (Block access to directories without a default document &amp; Block access to all hidden files and directories; ie. this .htaccess file)</li>
-        <li>HTTP Strict Transport Security (HSTS) (set SSL redirection on the client-side)</li>
-        <li>Reducing MIME type security risks (prevent MIME-sniffing)</li>
-        <li>Reflected Cross-Site Scripting (XSS) attacks (enable filter and prevent browsers from rendering)</li>
-        <li>Disabling Server-side technology information</li>
-        <li>Disabling Server software information</li>
-        <li>Compression</li>
-        <li>Content transformation (disabled)</li>
-        <li>ETags (removed ETags due to using “Expires Headers”)</li>
-        <li>Expires headers</li>
+
         </ul>
 
         <p><a href="https://gist.github.com/wycks/3011895">This .htaccess configuration</a> works with static sites and any dynamic ones as well, like WordPress. Append the contents of this file to your working .htaccess file if you are running a website hosted on an Apache websever.</p>
